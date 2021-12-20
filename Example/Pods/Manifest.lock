@@ -1,0 +1,16 @@
+PODS:
+  - HIRequestLib (0.0.2)
+
+DEPENDENCIES:
+  - HIRequestLib (from `../`)
+
+EXTERNAL SOURCES:
+  HIRequestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HIRequestLib: 9f96ef5092e66b8044c2045b49e4c7cf30313afd
+
+PODFILE CHECKSUM: a4c23ab953e6d955ef07cba2be851db054882b86
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,1 @@
+../../../../../HIRequestLib/Classes/HIRequestManager.h

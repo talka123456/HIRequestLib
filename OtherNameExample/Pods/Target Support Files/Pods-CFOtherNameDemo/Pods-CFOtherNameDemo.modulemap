@@ -1,0 +1,6 @@
+module Pods_CFOtherNameDemo {
+  umbrella header "Pods-CFOtherNameDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

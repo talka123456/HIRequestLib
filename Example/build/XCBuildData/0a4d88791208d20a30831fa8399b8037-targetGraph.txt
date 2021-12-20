@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+AFNetworking in Pods, no dependencies
+HIRequestLib in Pods, depends on:
+AFNetworking in Pods (explicit)
+Pods-HIRequestLib_Example in Pods, depends on:
+AFNetworking in Pods (explicit)
+HIRequestLib in Pods (explicit)

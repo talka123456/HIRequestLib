@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565D3BAE1CEDA0D3554959CF600EFFE3 /* TestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FD3CC39F5A5019984D0490600AD32E /* TestSwift.swift */; };
+		731C298B4A08890A789EEC284B432113 /* HIRequestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBCAFD7EF43D0A166254BAE5D9D2433 /* HIRequestLib-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		772DB5E8E9D92643314A2776010B8540 /* HIRequestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3968F270A6CE07F5BD1CEF3D312E /* HIRequestLib-dummy.m */; };
+		A1B541D5EA3D7E5A46A156D0EEDA8F72 /* HIRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D22DD924025550AD2F61B309D093ABE /* HIRequestManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B267B71AF22EF5236BCA573F901E102A /* HIRequestLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A7F2CAAE6D3CD7433B5361C4B57576 /* HIRequestLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD3BBA236C4D26F7C20916F5451269BF /* Pods-HIRequestLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64302E5C6EA06D6398C5910CA34F013B /* Pods-HIRequestLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C33FE29654CA84BF6524F11D672DCC59 /* HIRequestManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C14400F3ACB3434518B32DD70D6E3BC0 /* HIRequestManager.mm */; };
+		F53C6677D88053AE492B0C52FD3B56A9 /* Pods-HIRequestLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E023FE576F75DB20CF62CDFC047BC39A /* Pods-HIRequestLib_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CF76206695AA1C636FBC976A743AA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075CC79E418E7B9BB9DB65E8A1C3CDCA;
+			remoteInfo = HIRequestLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E82028F9FA8F3995439B1A0BDD634BC /* HIRequestLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HIRequestLib.modulemap; sourceTree = "<group>"; };
+		14FD3CC39F5A5019984D0490600AD32E /* TestSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestSwift.swift; path = HIRequestLib/Classes/TestSwift.swift; sourceTree = "<group>"; };
+		23FC54BBAD1D5A6EFE832B442477AB6A /* HIRequestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HIRequestLib.debug.xcconfig; sourceTree = "<group>"; };
+		2B43DE3C21616565E6F36F93AD5EF79C /* Pods-HIRequestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HIRequestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3D22DD924025550AD2F61B309D093ABE /* HIRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HIRequestManager.h; path = HIRequestLib/Classes/HIRequestManager.h; sourceTree = "<group>"; };
+		4DBCAFD7EF43D0A166254BAE5D9D2433 /* HIRequestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HIRequestLib-umbrella.h"; sourceTree = "<group>"; };
+		54A2D76465A1851AF89047A82D2176EF /* Pods-HIRequestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HIRequestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5740F8E29EDD27872C250A9097E679CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		64302E5C6EA06D6398C5910CA34F013B /* Pods-HIRequestLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HIRequestLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		64A7F2CAAE6D3CD7433B5361C4B57576 /* HIRequestLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HIRequestLib.h; path = HIRequestLib/Classes/HIRequestLib.h; sourceTree = "<group>"; };
+		71DEE482FC785F2CF6AEADAEE5EA9ED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8D896C0F92A02DAAF9A7F792D47B3442 /* HIRequestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HIRequestLib.release.xcconfig; sourceTree = "<group>"; };
+		98EE0004C6519F10509F6F3C016B8149 /* Pods-HIRequestLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HIRequestLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C14400F3ACB3434518B32DD70D6E3BC0 /* HIRequestManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = HIRequestManager.mm; path = HIRequestLib/Classes/HIRequestManager.mm; sourceTree = "<group>"; };
+		C6CF4B86980465857C8C91C76A1FB3F8 /* Pods-HIRequestLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HIRequestLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8BF1C237131F95A62415B298D283E69 /* Pods-HIRequestLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HIRequestLib_Example.modulemap"; sourceTree = "<group>"; };
+		D4C053F042EDAFD2B8F345430B4E9E33 /* HIRequestLib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = HIRequestLib; path = libHIRequestLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79454C307CF3C489780127138AAAC00 /* Pods-HIRequestLib_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-HIRequestLib_Example"; path = "libPods-HIRequestLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E023FE576F75DB20CF62CDFC047BC39A /* Pods-HIRequestLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HIRequestLib_Example-dummy.m"; sourceTree = "<group>"; };
+		F55E3968F270A6CE07F5BD1CEF3D312E /* HIRequestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HIRequestLib-dummy.m"; sourceTree = "<group>"; };
+		F77F7CD24A86D44EA84226B58006F7DB /* HIRequestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HIRequestLib-prefix.pch"; sourceTree = "<group>"; };
+		F7DF9FD3D72C36870A4F8CBAAC98A2D0 /* HIRequestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HIRequestLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD74348E471DBF3E74552E14B8D2958A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F6A8708EE09C9A04F9CC94278182C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235EB0BADDEBC6167DF2B2B4FD16CE79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2ED75246CDCA52BC546F67A4CE8CAB4 /* HIRequestLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		27C0F61E0A5EE42FBB5DF0E8F4AACFC3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F7DF9FD3D72C36870A4F8CBAAC98A2D0 /* HIRequestLib.podspec */,
+				71DEE482FC785F2CF6AEADAEE5EA9ED6 /* LICENSE */,
+				5740F8E29EDD27872C250A9097E679CA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3921207F40F0CF5E2D6C5B8DCB2F477C /* Pods-HIRequestLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C8BF1C237131F95A62415B298D283E69 /* Pods-HIRequestLib_Example.modulemap */,
+				98EE0004C6519F10509F6F3C016B8149 /* Pods-HIRequestLib_Example-acknowledgements.markdown */,
+				C6CF4B86980465857C8C91C76A1FB3F8 /* Pods-HIRequestLib_Example-acknowledgements.plist */,
+				E023FE576F75DB20CF62CDFC047BC39A /* Pods-HIRequestLib_Example-dummy.m */,
+				64302E5C6EA06D6398C5910CA34F013B /* Pods-HIRequestLib_Example-umbrella.h */,
+				2B43DE3C21616565E6F36F93AD5EF79C /* Pods-HIRequestLib_Example.debug.xcconfig */,
+				54A2D76465A1851AF89047A82D2176EF /* Pods-HIRequestLib_Example.release.xcconfig */,
+			);
+			name = "Pods-HIRequestLib_Example";
+			path = "Target Support Files/Pods-HIRequestLib_Example";
+			sourceTree = "<group>";
+		};
+		43431667ED73D30B7638D10E3F4ECA1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E82028F9FA8F3995439B1A0BDD634BC /* HIRequestLib.modulemap */,
+				F55E3968F270A6CE07F5BD1CEF3D312E /* HIRequestLib-dummy.m */,
+				F77F7CD24A86D44EA84226B58006F7DB /* HIRequestLib-prefix.pch */,
+				4DBCAFD7EF43D0A166254BAE5D9D2433 /* HIRequestLib-umbrella.h */,
+				23FC54BBAD1D5A6EFE832B442477AB6A /* HIRequestLib.debug.xcconfig */,
+				8D896C0F92A02DAAF9A7F792D47B3442 /* HIRequestLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HIRequestLib";
+			sourceTree = "<group>";
+		};
+		B6E1575A2B9A2E7516221ED8562C77B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C053F042EDAFD2B8F345430B4E9E33 /* HIRequestLib */,
+				D79454C307CF3C489780127138AAAC00 /* Pods-HIRequestLib_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE906A71EB23ED091D79E478B094979B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3921207F40F0CF5E2D6C5B8DCB2F477C /* Pods-HIRequestLib_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C2ED75246CDCA52BC546F67A4CE8CAB4 /* HIRequestLib */ = {
+			isa = PBXGroup;
+			children = (
+				64A7F2CAAE6D3CD7433B5361C4B57576 /* HIRequestLib.h */,
+				3D22DD924025550AD2F61B309D093ABE /* HIRequestManager.h */,
+				C14400F3ACB3434518B32DD70D6E3BC0 /* HIRequestManager.mm */,
+				14FD3CC39F5A5019984D0490600AD32E /* TestSwift.swift */,
+				27C0F61E0A5EE42FBB5DF0E8F4AACFC3 /* Pod */,
+				43431667ED73D30B7638D10E3F4ECA1B /* Support Files */,
+			);
+			name = HIRequestLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				235EB0BADDEBC6167DF2B2B4FD16CE79 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B6E1575A2B9A2E7516221ED8562C77B9 /* Products */,
+				BE906A71EB23ED091D79E478B094979B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C65A3FC35043EC629A7D7DD55779E5C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B267B71AF22EF5236BCA573F901E102A /* HIRequestLib.h in Headers */,
+				731C298B4A08890A789EEC284B432113 /* HIRequestLib-umbrella.h in Headers */,
+				A1B541D5EA3D7E5A46A156D0EEDA8F72 /* HIRequestManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BE2AB404F274A458EDC9C63B39E170 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3BBA236C4D26F7C20916F5451269BF /* Pods-HIRequestLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06F5B098CEACC3200E9500032C1DFF42 /* Pods-HIRequestLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBA5053D55574B707B24570556EB3D3 /* Build configuration list for PBXNativeTarget "Pods-HIRequestLib_Example" */;
+			buildPhases = (
+				E0BE2AB404F274A458EDC9C63B39E170 /* Headers */,
+				1369C391CD45784367BFC1E13EB1E4B5 /* Sources */,
+				BD74348E471DBF3E74552E14B8D2958A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643A5F27925CFFC42B1496352FCF454D /* PBXTargetDependency */,
+			);
+			name = "Pods-HIRequestLib_Example";
+			productName = "Pods-HIRequestLib_Example";
+			productReference = D79454C307CF3C489780127138AAAC00 /* Pods-HIRequestLib_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		075CC79E418E7B9BB9DB65E8A1C3CDCA /* HIRequestLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC55D22EB5FA0202773C8D20F9624402 /* Build configuration list for PBXNativeTarget "HIRequestLib" */;
+			buildPhases = (
+				C65A3FC35043EC629A7D7DD55779E5C6 /* Headers */,
+				FE616EFBABF0095A232CC7E25F2FB217 /* Sources */,
+				C3F6A8708EE09C9A04F9CC94278182C6 /* Frameworks */,
+				BF7F5F2701EF70D124EE4021CD5520B3 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIRequestLib;
+			productName = HIRequestLib;
+			productReference = D4C053F042EDAFD2B8F345430B4E9E33 /* HIRequestLib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B6E1575A2B9A2E7516221ED8562C77B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075CC79E418E7B9BB9DB65E8A1C3CDCA /* HIRequestLib */,
+				06F5B098CEACC3200E9500032C1DFF42 /* Pods-HIRequestLib_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF7F5F2701EF70D124EE4021CD5520B3 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/HIRequestLib/HIRequestLib.modulemap",
+				"${PODS_ROOT}/Headers/Public/HIRequestLib/HIRequestLib-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/HIRequestLib-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/HIRequestLib/HIRequestLib.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/HIRequestLib/HIRequestLib-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1369C391CD45784367BFC1E13EB1E4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53C6677D88053AE492B0C52FD3B56A9 /* Pods-HIRequestLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE616EFBABF0095A232CC7E25F2FB217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772DB5E8E9D92643314A2776010B8540 /* HIRequestLib-dummy.m in Sources */,
+				C33FE29654CA84BF6524F11D672DCC59 /* HIRequestManager.mm in Sources */,
+				565D3BAE1CEDA0D3554959CF600EFFE3 /* TestSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		643A5F27925CFFC42B1496352FCF454D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HIRequestLib;
+			target = 075CC79E418E7B9BB9DB65E8A1C3CDCA /* HIRequestLib */;
+			targetProxy = 7CF76206695AA1C636FBC976A743AA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26F13F06D7D478C75B7BC7EE2ACECBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B43DE3C21616565E6F36F93AD5EF79C /* Pods-HIRequestLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HIRequestLib_Example/Pods-HIRequestLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C8735BEDAFA7247E305BB677AA3A5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D896C0F92A02DAAF9A7F792D47B3442 /* HIRequestLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HIRequestLib/HIRequestLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/HIRequestLib/HIRequestLib.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HIRequestLib;
+				PRODUCT_NAME = HIRequestLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44517C9321E410C67E698193EC1F63D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A2D76465A1851AF89047A82D2176EF /* Pods-HIRequestLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HIRequestLib_Example/Pods-HIRequestLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C063610C1171CF98D5ED7E30818F6ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FC54BBAD1D5A6EFE832B442477AB6A /* HIRequestLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HIRequestLib/HIRequestLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/HIRequestLib/HIRequestLib.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HIRequestLib;
+				PRODUCT_NAME = HIRequestLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBA5053D55574B707B24570556EB3D3 /* Build configuration list for PBXNativeTarget "Pods-HIRequestLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F13F06D7D478C75B7BC7EE2ACECBAF /* Debug */,
+				44517C9321E410C67E698193EC1F63D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC55D22EB5FA0202773C8D20F9624402 /* Build configuration list for PBXNativeTarget "HIRequestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C063610C1171CF98D5ED7E30818F6ED5 /* Debug */,
+				2C8735BEDAFA7247E305BB677AA3A5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module HIRequestLib {
+  umbrella header "HIRequestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "HIRequestLib",
+  "version": "0.0.2",
+  "summary": "network",
+  "homepage": "https://github.com/zongmumask/HIRequestLib.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zongmumask": "zongmumask@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zongmumask/HIRequestLib.git",
+    "tag": "0.0.2"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HIRequestLib/Classes/**/*",
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/HIRequestLib/Vendors/gmsslsim/include/\" \"$(PODS_TARGET_SRCROOT)/HIRequestLib/Vendors/gmsslsim/include/openssl/\" \"$(PODS_TARGET_SRCROOT)/HIRequestLib/Vendors/GMWebSSL/include/\"",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "swift_version": "5.0"
+}
